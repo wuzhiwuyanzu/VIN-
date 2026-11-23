@@ -6,15 +6,15 @@ from tkinter import filedialog, messagebox, ttk
 
 
 TRANSLITERATION = {
-    **dict.fromkeys("ABCDEFG", 1),
-    **dict.fromkeys("H", 8),
-    **dict.fromkeys("JKLM", 2),
-    **dict.fromkeys("N", 5),
-    **dict.fromkeys("P", 7),
-    **dict.fromkeys("R", 9),
-    **dict.fromkeys("ST", 3),
-    **dict.fromkeys("UVW", 4),
-    **dict.fromkeys("XYZ", 6),
+    **dict.fromkeys("AJ", 1),
+    **dict.fromkeys("BKS", 2),
+    **dict.fromkeys("CLT", 3),
+    **dict.fromkeys("DMU", 4),
+    **dict.fromkeys("ENV", 5),
+    **dict.fromkeys("FW", 6),
+    **dict.fromkeys("GPX", 7),
+    **dict.fromkeys("HY", 8),
+    **dict.fromkeys("RZ", 9),
     **{str(n): n for n in range(10)},
 }
 WEIGHTS = (8, 7, 6, 5, 4, 3, 2, 10, 0, 9, 8, 7, 6, 5, 4, 3, 2)
