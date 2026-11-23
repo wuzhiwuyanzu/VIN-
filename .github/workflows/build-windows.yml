@@ -2,9 +2,6 @@ name: Build Windows app
 
 on:
   workflow_dispatch:
-  push:
-标签:
-      - "v*"
 
 permissions:
   contents: read
